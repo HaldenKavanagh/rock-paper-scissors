@@ -1,0 +1,46 @@
+PSEUDO FOR R,P,S
+
+Building an R, P, S game!!!
+
+what are the rules of the game???
+R beats S
+S beats P
+P beats R
+
+
+what data do i need to track in this game?
+
+variables - 
+userChoice - what does the user select? 
+computerChoice - what value is being stored to compare to userChoice
+
+userWins, userLosses, ties
+
+playAgain = boolean
+
+
+randomizing the computer choice??? --  Math.floor(), Math.random()
+
+think about how can i have the computer choose a random value???
+what choices does the computer have?? R, P, S  
+
+                        0    1    2
+var computerChoices = ["R", "P", "S"]
+
+
+COMPARE THE TWO CHOICES!!!!
+
+
+&& ||    - computer, user
+
+if(win) {
+  alert("you won")
+  wins++
+
+} else if(tied) {
+
+} else {
+  alert("you have lost")
+  losses++
+  you lost
+}
